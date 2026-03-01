@@ -30,7 +30,7 @@ These commands helped me navigate directories and read files in the terminal mor
 The hardest challenge for me was finding a specific word inside a log file using the **"grep"** command.
 
 At first, I failed because I didn't fully understand the syntax of the command and I misunderstood what I needed to search for. I initially tried:
-- `grep *.THM acces.log`
+- `grep *.THM access.log`
 - `grep "*.THM" access.log`
 
 After reviewing the syntax again, I realized that I needed to search for the text itself, so I used:
