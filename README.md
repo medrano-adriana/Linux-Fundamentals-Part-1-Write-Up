@@ -6,7 +6,7 @@ This write-up describes the hardest challenge I encountered in the Linux Fundame
 First, in this lab I practiced basic Linux commands:
 - echo: print text in the terminal
 - whoami: display the current user
-- ls (listing): list directory contents
+- ls (list): list directory contents
 - cd (change directory)
 - pwd (print working directory)
 - cat (concatenate): display file contents
@@ -29,15 +29,18 @@ These commands helped me navigate directories and read files in the terminal mor
 ## HARDEST CHALLENGE
 The hardest challenge for me was finding a specific word inside a log file using the **"grep"** command.
 
-At first, I failed because I did not fully understand the syntax of the command and I misunderstood what I needed to search for. I initially tried: `grep *.THM acces.log` and then `grep "*.THM" access.log`
+At first, I failed because I did not fully understand the syntax of the command and I misunderstood what I needed to search for. I initially tried:
+`grep *.THM acces.log`
+`grep "*.THM" access.log`
 
 After reviewing the syntax again, I realized that I needed to search for the text itself, so I used:
 `grep "THM" access.log`
 
-This command returned the flag in the format: THM{---}
+This command returned the flag in the format **THM{---}**.
 
 ### Grep
 <img width="936" height="132" alt="grep png" src="https://github.com/user-attachments/assets/4c810844-2fba-439a-9b97-dd828ccb1f37" />
+
 
 It is also possible to use the "-R" option to search recursively through directories.
 
