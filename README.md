@@ -48,7 +48,7 @@ It is also possible to use the "-R" option to search recursively through directo
 
 Other important commands I learned were "find" and "wc".
 
-The "find" command is an efficient way to search for files because it automates the search process when you know the filename or at least the file type, for example ".txt" files.
+The "find" command is an efficient way to search for files because it automates the search process when you know the file name or at least the file type, for example ".txt" files.
 
 The "wc" command can be used to count entries or lines in a file, which helps decide whether it is better to read the file with "cat" or filter the content using "grep".
 
@@ -73,6 +73,6 @@ From this room I learned:
 
 - Basic Linux commands
 - Correct syntax and use of the "grep" command
-- Reading files using "cat"
+- How to search for files efficiently using the "find" command
 - How to search efficiently in the terminal
 - The importance of correct command syntax
