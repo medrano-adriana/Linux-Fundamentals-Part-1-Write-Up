@@ -31,6 +31,7 @@ The hardest challenge for me was finding a specific word inside a log file using
 
 At first, I failed because I did not fully understand the syntax of the command and I misunderstood what I needed to search for. I initially tried:
 `grep *.THM acces.log`
+
 `grep "*.THM" access.log`
 
 After reviewing the syntax again, I realized that I needed to search for the text itself, so I used:
