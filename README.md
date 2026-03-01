@@ -34,7 +34,7 @@ At first, I failed because I didn't fully understand the syntax of the command a
 - `grep "*.THM" access.log`
 
 After reviewing the syntax again, I realized that I needed to search for the text itself, so I used:
-`grep "THM" access.log`
+- `grep "THM" access.log`
 
 This command returned the flag in the format **THM{---}**.
 
